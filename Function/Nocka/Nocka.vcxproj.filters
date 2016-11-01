@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Kwadrat">
+      <UniqueIdentifier>{61602727-107c-4d05-b856-80c74ab016af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kwadrat">
+      <UniqueIdentifier>{8ad8f875-e269-4c15-8556-c424dc30cc99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kwadrat\MORFS">
+      <UniqueIdentifier>{ed44454b-10eb-429f-a78c-483e1bc66dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kwadrat\MORFS\OG">
+      <UniqueIdentifier>{4330becf-29d8-4c98-a9a6-91aa2be6e5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kwadrat\MORFS">
+      <UniqueIdentifier>{4cee6955-d9cc-452d-8dd2-3c1edc04deb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kwadrat\MORFS\OG">
+      <UniqueIdentifier>{3366368a-8ecf-49ea-b98d-629ed1a21104}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kwadrat\MORFS\KA">
+      <UniqueIdentifier>{edfda84c-9629-45e7-b924-810eb0ae341d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kwadrat\MORFS\KA">
+      <UniqueIdentifier>{2a45f288-69b3-4d63-8756-9f378028a892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kwadrat\MORFS\IL">
+      <UniqueIdentifier>{ea4aefb6-7702-4537-9e5b-4c18847eca8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kwadrat\MORFS\IL">
+      <UniqueIdentifier>{a698c937-ec80-44d0-8f10-09e280e370a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kwadrat\IRREGULARITY">
+      <UniqueIdentifier>{06608e18-31d2-4b36-9289-bb6be4b6bd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kwadrat\IRREGULARITY">
+      <UniqueIdentifier>{22279989-1ec8-4f52-ba36-12dcb805d760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kwadrat\MORFS\evermorfs">
+      <UniqueIdentifier>{6213fd2d-082c-4333-b51b-664a93adf597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kwadrat\MORFS\everymorfs">
+      <UniqueIdentifier>{919ac139-c98b-4b68-9cab-e7dcb0ae8192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Info">
+      <UniqueIdentifier>{d2165f1a-4921-4346-8ce5-790e621c9636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Info">
+      <UniqueIdentifier>{af63e409-b5b1-445d-8250-95e46ebcbf0a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="f_kwadrat.cpp">
+      <Filter>Source Files\Kwadrat</Filter>
+    </ClCompile>
+    <ClCompile Include="MORF_OG.cpp">
+      <Filter>Source Files\Kwadrat\MORFS\OG</Filter>
+    </ClCompile>
+    <ClCompile Include="MORF_KA.cpp">
+      <Filter>Source Files\Kwadrat\MORFS\KA</Filter>
+    </ClCompile>
+    <ClCompile Include="MORF_IL.cpp">
+      <Filter>Source Files\Kwadrat\MORFS\IL</Filter>
+    </ClCompile>
+    <ClCompile Include="IRREGULARITY.cpp">
+      <Filter>Source Files\Kwadrat\IRREGULARITY</Filter>
+    </ClCompile>
+    <ClCompile Include="everymorfs.cpp">
+      <Filter>Source Files\Kwadrat\MORFS\evermorfs</Filter>
+    </ClCompile>
+    <ClCompile Include="Dodatkowe_info.cpp">
+      <Filter>Source Files\Info</Filter>
+    </ClCompile>
+    <ClCompile Include="Wyrazenia.cpp">
+      <Filter>Source Files\Kwadrat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="f_kwadrat.h">
+      <Filter>Header Files\Kwadrat</Filter>
+    </ClInclude>
+    <ClInclude Include="MORF_OG.h">
+      <Filter>Header Files\Kwadrat\MORFS\OG</Filter>
+    </ClInclude>
+    <ClInclude Include="MORF_KA.h">
+      <Filter>Header Files\Kwadrat\MORFS\KA</Filter>
+    </ClInclude>
+    <ClInclude Include="MORF_IL.h">
+      <Filter>Header Files\Kwadrat\MORFS\IL</Filter>
+    </ClInclude>
+    <ClInclude Include="IRREGULARITY.h">
+      <Filter>Header Files\Kwadrat\IRREGULARITY</Filter>
+    </ClInclude>
+    <ClInclude Include="everymorfs.h">
+      <Filter>Header Files\Kwadrat\MORFS\everymorfs</Filter>
+    </ClInclude>
+    <ClInclude Include="Dodatkowe_info.h">
+      <Filter>Header Files\Info</Filter>
+    </ClInclude>
+    <ClInclude Include="Wyrazenia.h">
+      <Filter>Header Files\Kwadrat</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
